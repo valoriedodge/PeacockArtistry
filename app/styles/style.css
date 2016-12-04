@@ -1,0 +1,114 @@
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+html {
+     height: 100%; /* makes sure our HTML takes up 100% of the browser window */
+     font-size: 100%;
+ }
+
+ body {
+/*     background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);*/
+     /*background-repeat: no-repeat;*/
+     /*background-attachment: fixed;*/
+     /*background-position: center center;*/
+     /*background-size: cover;*/
+     font-family: cursive;
+     color: white;
+     min-height: 100%;
+     padding-bottom: 100px;
+     position: relative;
+     background-color: rgb(58,23,63);
+ }
+#about {
+    background-color: beige;
+    color: #182696;
+    padding-top:50px;
+    height: 500px;
+    text-align: center;
+}
+#about .about {
+  text-align: left;
+}
+
+#services {
+    text-align: center;
+    padding-top:50px;
+    height: 500px;
+    background-color: #15206d;
+    color: white;
+}
+
+#pricing {
+    padding-top:50px;
+    height: 600px;
+    background-color: white;
+    color: rgb(58,23,63);
+}
+
+.clearfix::before,
+.clearfix::after {
+   content: " ";
+   display: table;
+}
+
+.clearfix::after {
+   clear: both;
+}
+.navbar {
+  background-color: #3a173f;
+  border-style: none;
+}
+/*.navbar .navbar-brand {
+  color: #f0f1f6;
+}*/
+/*.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #1126b4;
+}*/
+.navbar .navbar-text {
+  color: #f0f1f6;
+}
+.navbar .navbar-nav > li > a {
+  color: #f0f1f6;
+  font-family: cursive;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #1126b4;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #1126b4;
+  background-color: #341538;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #1126b4;
+  background-color: #29102d;
+}
+.navbar .navbar-link {
+  color: #f0f1f6;
+}
+.navbar .navbar-link:hover {
+  color: #1126b4;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #f0f1f6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #1126b4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #1126b4;
+    background-color: #29102d;
+  }
+}

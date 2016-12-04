@@ -1,1 +1,45 @@
-<h1>Home Page</h1>
+<section class="hero-content">
+     <h1 class="hero-title">{{home.title}}</h1>
+ </section>
+
+<section id="about" class="container-fluid">
+    <div class="selfie col-md-6">
+        Picture
+    </div>
+    <div class="about col-md-6">
+        <h3>Hi, I'm Makenzie</h3>
+    </div>
+</section>
+
+<section id="services" class="container-fluid">
+    <h3>These are my services</h3>
+    <div class="point column third">
+        <span class="ion-bowtie"></span>
+        <h5 class="point-title">Special Events</h5>
+        <p class="point-description">The world is full of music; why should you have to listen to music that someone else chose?</p>
+    </div>
+    <div class="point column third">
+        <span class="ion-android-contacts"></span>
+        <h5 class="point-title">Classes and Parties!</h5>
+        <p class="point-description">No arbitrary limits. No distractions.</p>
+    </div>
+    <div class="point column third">
+        <span class="ion-camera"></span>
+        <h5 class="point-title">Photo Shoots</h5>
+        <p class="point-description">Listen to your music on the go. This streaming service is available on all mobile platforms.</p>
+    </div>
+</section>
+
+<section id="pricing" class="container-fluid">
+    <h3>These are my prices</h3>
+</section>
+<section id="contact" class="container-fluid">
+    <h3>Contact Me!</h3>
+    <form action="https://getsimpleform.com/messages?form_api_token=" method="post">
+      <input type="hidden" name="redirect_to" value="full-url/thank-you/" /><br/>
+      <input type="text" name="name" placeholder="Your Full Name" />
+      <input type="email" name="email" placeholder="Your E-mail Address" /><br/>
+      <textarea name="message" placeholder="Write your message ..."></textarea><br>
+      <input type="submit" value="Send Message" />
+    </form>
+</section>

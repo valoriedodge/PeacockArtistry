@@ -1,0 +1,55 @@
+.hero-content {
+     margin-top:50px;
+     position: relative; /* positioning will be explained in a resource */
+     min-height: 650px;  /* hero content element must be _at least_ 600 pixels */
+     /*background-image: url(../assets/images/family.jpg);*/
+     /*background-repeat: no-repeat;*/
+     /*background-position: center center;*/
+     /*background-size: cover;*/
+ }
+
+.hero-content .hero-title {
+     padding-top:50px;
+     position: absolute;             /* positioning will be explained in a resource */
+     top: 40%;                       /* positioning will be explained in a resource */
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+     font-family: 'Monsieur La Doulaise', cursive;
+     width: 100%;                    /* makes sure the title inhabits the full width of its container */
+     text-align: center;             /* aligns text in the horizontal center of the element */
+     font-size: 8rem;                /* specifies the size of the font in root em units */
+     font-weight: 300;               /* makes the font thinner or lighter weight */
+     /*letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */*/
+     text-shadow: 1px 1px 0px #3a173f; /* creates a shadow underneath the text for readability over the image */
+ }
+
+.selling-points {
+     position: relative;
+     display: table;
+     width: 100%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box; /* we'll explain this in a resource */
+ }
+
+ .point {
+     display: table-cell;
+     position: relative;
+     width: 33.3%;
+     padding: 2rem;
+     text-align: center;
+     opacity: 1;
+ }
+
+ .point .point-title {
+     font-size: 1.25rem;
+ }
+
+ .ion-camera,
+ .ion-android-contacts,
+ .ion-bowtie {
+     color: #582460;
+     font-size: 5rem;
+ }
