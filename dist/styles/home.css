@@ -16,7 +16,7 @@
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
-     font-family: 'Monsieur La Doulaise', cursive;
+     font-family: 'Rouge Script', cursive;
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
      text-align: center;             /* aligns text in the horizontal center of the element */
      font-size: 8rem;                /* specifies the size of the font in root em units */
@@ -25,28 +25,83 @@
      text-shadow: 1px 1px 0px #3a173f; /* creates a shadow underneath the text for readability over the image */
  }
 
-.selling-points {
-     position: relative;
-     display: table;
-     width: 100%;
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box; /* we'll explain this in a resource */
- }
 
  .point {
      display: table-cell;
      position: relative;
-     width: 33.3%;
+     width: 20%;
      padding: 2rem;
+     margin: 100px;
      text-align: center;
      opacity: 1;
+     color: white;
+     /*color: #582460;*/
+     border-radius: 30px;
  }
 
  .point .point-title {
      font-size: 1.25rem;
  }
+ #pricing {
+     /*padding: 20px;*/
+     padding-top: 50px;
+     height: 600px;
+     width: 100%;
+     background-color: white;
+     color: rgb(58,23,63);
+     text-align: center;
+ }
 
+.pricing-services {
+  width: 100%;
+  margin: 0px auto;
+  background-color: beige;
+  overflow: hidden;
+}
+
+.pricing-services .service {
+  width: 30%;
+  margin: 20px;
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+  height: 350px;
+  border-radius: 5px;
+  /*float: left;*/
+}
+
+.service h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+
+}
+
+.pricing-services > .service:last-child {
+  margin-right: 0px;
+}
+
+.form {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+.form .input {
+  width: 100%;
+  color: black;
+  margin: 10px;
+}
+.form .submit {
+  color: black;
+}
+hr {
+    display: block;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: inset;
+}
  .ion-camera,
  .ion-android-contacts,
  .ion-bowtie {

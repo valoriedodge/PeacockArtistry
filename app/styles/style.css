@@ -14,22 +14,38 @@ html {
      /*background-attachment: fixed;*/
      /*background-position: center center;*/
      /*background-size: cover;*/
-     font-family: cursive;
+     font-family: 'Gochi Hand', cursive;
      color: white;
      min-height: 100%;
      padding-bottom: 100px;
      position: relative;
      background-color: rgb(58,23,63);
  }
+ footer {
+   margin: 25px;
+   height: 10px;
+   font-weight:normal;
+   font-size: 20px;
+ }
+ .social {
+   font-size: 30px;
+   float: right;
+ }
+ .copyright {
+   float:left;
+ }
 #about {
     background-color: beige;
     color: #182696;
-    padding-top:50px;
+    padding:50px;
     height: 500px;
     text-align: center;
+
 }
 #about .about {
+  background-color: white;
   text-align: left;
+  border-radius: 5px;
 }
 
 #services {
@@ -37,15 +53,19 @@ html {
     padding-top:50px;
     height: 500px;
     background-color: #15206d;
-    color: white;
+}
+#classes {
+    text-align: center;
+    padding-top:50px;
+    height: 500px;
+}
+#contact {
+    text-align: center;
+    padding-top:50px;
+    height: 500px;
 }
 
-#pricing {
-    padding-top:50px;
-    height: 600px;
-    background-color: white;
-    color: rgb(58,23,63);
-}
+
 
 .clearfix::before,
 .clearfix::after {
@@ -72,7 +92,7 @@ html {
 }
 .navbar .navbar-nav > li > a {
   color: #f0f1f6;
-  font-family: cursive;
+  font-family: 'Muli', sans-serif;
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
@@ -81,8 +101,9 @@ html {
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: #1126b4;
-  background-color: #341538;
+  color: #341538;
+  font-weight: bold;
+  background-color: white;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
